@@ -193,4 +193,4 @@ I have completed the following course:
 
 - [Coursera: Verify my certificate](https://www.coursera.org/account/accomplishments/verify/C62IH05NT5PP)
 
-![Intro to Generative AI](https://github.com/Mike014/LLM_Concepts/blob/main/Intro_to_Generative_AI.png)
+<img src="https://github.com/Mike014/LLM_Concepts/blob/main/Intro_to_Generative_AI.png" alt="Intro to Generative AI" width="300"/>
