@@ -20,18 +20,18 @@ They are **based on advanced neural networks**, in particular on **Transformers*
 
 2. Strategies for Effective Prompting:
    - Break down complex problems → Divide the task into multiple logical steps.
-   - ✅ Ask the model to self-evaluate → "Do you think the answer is correct?".
-   - ✅ Be creative → Experiment with different formulations to get better results.
+   - Ask the model to self-evaluate → "Do you think the answer is correct?".
+   - Be creative → Experiment with different formulations to get better results.
 
 3. Types of Prompts:
-   - 📌 **Zero-Shot Prompting (Without examples)**
+   - **Zero-Shot Prompting (Without examples)**
      The model receives **only an instruction, without reference** examples.
 
      ### Example:
      **Prompt**: "Give me blog ideas about New York for tourists."
      **Result**: The model generates ideas without any provided example.
 
-   - 📌 **One-Shot, Few-Shot, and Multi-Shot Prompting**
+   - **One-Shot, Few-Shot, and Multi-Shot Prompting**
      **One or more examples** are provided to guide the model.
 
      ### Example:
@@ -44,7 +44,7 @@ They are **based on advanced neural networks**, in particular on **Transformers*
      "Super useful, worth it" → Sentiment: Positive"
      "Doesn't work!?" → [The model completes the response]
 
-   - 📌 **Chain-of-Thought Prompting (CoT)**
+   - **Chain-of-Thought Prompting (CoT)**
      The model is **asked to explain its reasoning step by step**.
 
      ### Example:
@@ -92,7 +92,7 @@ The key innovation behind LLMs is the **Transformer architecture**, introduced i
 "The animal did not cross the road because it was too tired."
 The model must determine whether "was" refers to the animal or the road. Self-attention helps resolve this ambiguity.
 
-### Models like GPT-3, GPT-4 (like mine), Gemini and other LLMs (Large Language Models) can learn new tasks without having to be retrained or change their internal parameters. This phenomenon is known as In-Context Learning (ICL).
+### Models like GPT-3, GPT-4, Gemini and other LLMs (Large Language Models) can learn new tasks without having to be retrained or change their internal parameters. This phenomenon is known as In-Context Learning (ICL).
 
  - 🔍 H**ow Does In-Context Learning Work?**
  **Model gets a prompt** with examples → Give the model some input-output examples.
@@ -132,10 +132,10 @@ LangChain makes it easy to integrate LLMs with databases, APIs, external tools, 
 
 1. **Why use LangChain?**
     - LLM models alone are powerful, but they have limitations:
-        - ❌ They cannot access real-time data.
-        - ❌ They cannot interact with external databases or APIs.
-        - ❌ They do not handle complex workflows.
-    - ✅ LangChain solves these problems by providing a modular framework to combine LLMs with external tools.
+        - They cannot access real-time data.
+        - They cannot interact with external databases or APIs.
+        - They do not handle complex workflows.
+    - LangChain solves these problems by providing a modular framework to combine LLMs with external tools.
 
 2. **LangChain Core Components**
     LangChain is structured in several core modules, which can be used individually or combined:
