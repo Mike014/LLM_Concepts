@@ -94,7 +94,7 @@ The model must determine whether "was" refers to the animal or the road. Self-at
 
 ### Models like GPT-3, GPT-4, Gemini and other LLMs (Large Language Models) can learn new tasks without having to be retrained or change their internal parameters. This phenomenon is known as In-Context Learning (ICL).
 
- - 🔍 H**ow Does In-Context Learning Work?**
+ - **How Does In-Context Learning Work?**
  **Model gets a prompt** with examples → Give the model some input-output examples.
  **Model learns the pattern** → Without changing its internal parameters, the model uses the neural network structure to recognize rules and patterns.
  **Output generation** → The model applies the learned logic to the new request.
