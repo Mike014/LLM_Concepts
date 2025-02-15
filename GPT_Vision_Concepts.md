@@ -111,4 +111,8 @@ View images **through specialized professional perspectives**.
 
 **This combination significantly enhances GPT-4 Vision’s ability to analyze and interpret images, unlocking more sophisticated and context-aware AI applications.**
 
+## Structured Data Extraction with Templates;
+enables you to **transform images into formatted data** for both human and digital systems.
+Thanks to context learning, GPT-4 Vision understands the required format and organizes the information automatically, without the need to specify detailed rules.
+
 
