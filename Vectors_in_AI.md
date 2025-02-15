@@ -63,4 +63,4 @@ print(output_vector)
 ### **Conclusion**  
 **Vectors are structured numerical data** that represent complex objects (images, text, audio) in a format that AI models can process.  
 **Without vectors, machine learning models would not be able to handle real-world data** like images, words, or sounds.  
-📌 **Frameworks like TensorFlow and Keras use vectors to transform and manipulate data**, allowing models to learn and make decisions.
+**Frameworks like TensorFlow and Keras use vectors to transform and manipulate data**, allowing models to learn and make decisions.
